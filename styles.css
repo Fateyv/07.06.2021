@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background-color: rgb(250, 178, 178);
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.wraper {
+    width: 400px;
+    margin: auto;
+}
+
+#newTaskInput {
+    width: 70%;
+}
+
+#addTodobtn {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#list {
+    margin-bottom: 50px;
+}
+
+.delete-btn {
+    background-color: brown;
+    border: none;
+    color: #fff;
+    margin-left: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.todo-item {
+    padding: 4px 8px;
+    background-color: #eddffe;
+    border: 1px solid rgb(105, 37, 37);
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.todo-item.done {
+    background-color: green;
+}

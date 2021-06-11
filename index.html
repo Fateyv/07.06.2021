@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wraper">
+        <ul id="list"></ul>
+        <input type="text" id = "newTaskInput">
+        <button id="addTodobtn">add</button>
+        
+    </div>
+    <script id="newTodoTemlate" type="text/template">
+        <li class="todo-item" data-todo-id="{{id}}">
+            {{content}}
+            <button class="delete-btn">X</button>
+        </li>
+    </script>
+</body>
+</html>
